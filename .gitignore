@@ -44,9 +44,12 @@ dist/
 nbdist/
 .nb-gradle/
 .idea
+.mvn
 *.idea
 /.idea
 node_modules
 target
 logs
-system_logs
+docs
+docker
+jars

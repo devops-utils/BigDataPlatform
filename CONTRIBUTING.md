@@ -1,7 +1,7 @@
-## Contributing to AllData
+## Contributing to alldata
 
 *Before opening a pull request*, review the 
-[Contributing to AllData guide](https://github.com/AllDataDC/alldata/blob/master/CONTRIBUTING.md). 
+[Contributing to AllData guide](https://github.com/alldatacenter/alldata/blob/master/CONTRIBUTING.md). 
 It lists steps that are required before creating a PR. In particular, consider:
 
 - Is the change important and ready enough to ask the community to spend time reviewing?
@@ -14,3 +14,4 @@ license the work to the project under the project's open source license. Whether
 state this explicitly, by submitting any copyrighted material via pull request, email, or 
 other means you agree to license the material under the project's open source license and 
 warrant that you have the legal authority to do so.
+

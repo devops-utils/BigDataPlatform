@@ -4,14 +4,19 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.2.6.RELEASE</version>
+  </parent>
+
   <groupId>com.platform</groupId>
   <artifactId>alldata</artifactId>
-
-  <version>1.2-SNAPSHOT</version>
+  <version>0.5.x</version>
   <packaging>pom</packaging>
 
-  <name>alldata</name>
-  <url>https://github.com/authorwlh/alldata</url>
+  <name>AllData</name>
+  <url>https://github.com/alldatacenter/alldata</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,6 +24,9 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
+  <modules>
+    <module>studio</module>
+  </modules>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -29,7 +37,7 @@
   </dependencies>
 
   <build>
-    <finalName>alldata</finalName>
+    <finalName>alldata-release-${project.version}</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
@@ -65,3 +73,5 @@
     </pluginManagement>
   </build>
 </project>
+
+
