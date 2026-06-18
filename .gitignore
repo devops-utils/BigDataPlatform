@@ -48,8 +48,8 @@ nbdist/
 *.idea
 /.idea
 node_modules
+/*/node_modules
 target
 logs
 docs
-docker
 jars

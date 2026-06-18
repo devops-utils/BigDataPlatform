@@ -1,441 +1,299 @@
-# 数据中台
-```
-AllData数据中台是可定义数据中台，上层是Wujie微前端架构，底座是可插拔的后端架构。
-AllData数据中台以数据平台为底座，以数据中台为桥梁，以机器学习平台为中层框架，以大模型应用为上游产品，提供全链路数字化解决方案。
-```
-## [AllData源码知识星球-商业版源码包教包会](https://docs.qq.com/doc/DVHhOdGp5UXB5UldP) ｜ [CSDN博客专栏（推荐订阅）](https://blog.csdn.net/alldatadc/category_12671909.html)
-
-## [官方文档](https://alldata-document.readthedocs.io/) ｜ [安装文档](https://alldata-document.readthedocs.io/zh/latest/installDeploy/index.html)  |  [部署教程](https://github.com/alldatacenter/alldata/blob/master/install.md)  |  [数据集成文档](https://github.com/alldatacenter/alldata/blob/master/quickstart_dts.md)  |  [BI教程文档](https://github.com/alldatacenter/alldata/blob/master/quickstart_bi.md)
-## AllData 首页 ｜ 登陆页
-<img width="1423" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/189663b3-f9e2-4c83-b6fa-507dc19711a5">
-
-## AllData 推荐 ｜ 技术社区
-<img width="1423" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/5e510d0e-35c5-43b9-9d84-300e73b43679">
-
-## 一、推荐 ｜ AllData数据中台开源项目
-
-<br/>
-<a href="https://github.com/alldatacenter/github-readme-stats">
-  <img width="1020" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=alldatacenter&repo=alldata" />
-</a>
-
-[![Stargazers over time](https://starchart.cc/alldatacenter/alldata.svg)](https://starchart.cc/alldatacenter/alldata)
-
-## 二、介绍 ｜ AllData数据中台开源版功能列表
-### AllData 1.0旧版架构
-
-| id  | 功能模块          | 是否开源                               |        开源版与商业版区别     |           架构版本        |
-|-----|------------------|------------------------------------|----------------------------|--------------------------|
-| 1   | 系统管理          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 2   | 数据集成          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 3   | 元数据管理        | 开源                                  |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 4   | 数据标准          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 5   | 数据质量          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 6   | 数据资产          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 7   | 数据市场          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 8   | 数据对比          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 9   | BI报表           | 开源                                 |    商业版更稳定,Bug比较少  |         旧版架构V1.0      |
-| 10  | 流程编排          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 11  | 系统监控          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 12  | 邮件服务          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-| 14  | 文件服务          | 开源                                 |    商业版更稳定,Bug比较少   |         旧版架构V1.0      |
-
-
-## 三、介绍 ｜ AllData数据中台商业版功能列表
-### AllData 2.0新版架构
-
-| id  | 功能模块          | 是否开源    |        开源版与商业版区别     |           架构版本        |
-|-----|------------------|---------|----------------------------|--------------------------|
-| 1   | 系统管理          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0      |
-| 2   | 数据集成          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 3   | 元数据管理        | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0      |
-| 4   | 数据标准          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 5   | 数据质量          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 6   | 数据资产          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 7   | 数据市场          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 8   | 数据对比          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 9   | BI报表           | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 10  | 流程编排          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 11  | 系统监控          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 12  | 邮件服务          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-| 14  | 文件服务          | 商业版，不开源 |    商业版更稳定,Bug比较少   |         新版架构V2.0       |
-
-
-## 四、介绍 ｜ AllData数据中台商业版新增功能列表
-
-| id | 功能模块        | 是否开源                                |        开源版与商业版区别     | 架构版本    |
-|----|----------------|---------------------------------------|----------------------------|---------|
-| 15 | 数据平台功能| 商业版，不开源                                |    商业版更稳定,Bug比较少   | 旧版架构1.0 |
-| 16 | 数据平台功能(DataSophon)| 商业版，不开源                    |    商业版更稳定,Bug比较少   | 新版架构V2.0 |
-| 17 | 数据平台k8s功能(Cloudeon)| 商业版，不开源                   |    商业版更稳定,Bug比较少   | 新版架构V2.0 |
-| 18 | 实时开发功能(Streampark)| 商业版，不开源                    |    商业版更稳定,Bug比较少   | 新版架构V2.0 |
-| 19 | 实时开发IDE功能(Dinky)| 商业版，不开源                      |    商业版更稳定,Bug比较少   | 新版架构V2.0 |
-| 20 | 离线平台功能(DolphinScheduler)| 商业版，不开源              |    商业版更稳定,Bug比较少   | 新版架构V2.0 |
-| 21 | BI平台功能(Datart)| 商业版，不开源                         |    商业版更稳定,Bug比较少   | 新版架构V2.0 |
-| 22 | 数据质量功能(Datavines)| 商业版，不开源                     |    商业版更稳定,Bug比较少   | 新版架构V2.0 |
-
-
-## 五、会员商业版
-
-#### 5.1 架构设计版本【包含alldata-V1.0架构, sciencemoat-V2.0架构】
-```
-1、会员商业版线上环境地址，线上环境只对会员通道开放，成为会员：享受会员权益。
-   
-  线上环境：http://122.51.43.143:5173/ui_moat    账号：test/123456（此账号只能体验数据质量功能）
-  
-2、开源版与商业版不是同一个项目，开源版命名为alldata，会长期存在，商业版命名为sciencemoat, 由公司团队维护。
-   
-   2.1 开源项目可以用于公司内部调研用途，如需商业使用，需要购买会员商业版，开源AllData项目使用GPL协议。
-   
-   2.2 加入会员通道，购买商业版源码，可以商业使用AllData。商业版功能更多，保证稳定性，Bug比较少，由公司架构师团队维护。
-   
-3、V1.0新版架构 alldata架构
-  
-  3.1 开源版属于V1.0旧版架构，V1.0旧版架构使用Vue2 + SpringCloud前后端分离架构。
-  
-  3.2 扩展大数据组件能力有限，目前扩展了开源组件DataSophon，此功能仅在商业版提供源码，开源版本不提供源码。
-  
-4、V2.0新版架构 sciencemoat架构
-  
-  4.1 创始版，新版尊贵会员，新版高级会员，新版终身会员属于V2.0新版架构。
-  
-  4.2 V2.0新版架构使用Wujie微前端架构+后端可插拔架构。
-  这套架构是全新会员商业版的核心优势，集成开源组件能力十分优秀，可以扩展支持到30-100+大数据开源组件。
-  
-```
+# AllData数据中台
 
-#### 5.2、会员价格【包含个人版, 企业版】
+### [AllData数据中台 & 杭州奥零数据科技 - 官方网站](http://www.aolingdata.com)
+### [AllData数据中台 & 杭州奥零数据科技 - 产品手册](https://www.yuque.com/aolingdata/product)
+### [AllData数据中台 & 杭州奥零数据科技 - 社区文档](https://docs.qq.com/doc/DVHlkSEtvVXVCdEFo) 
+### [AllData数据中台 & 杭州奥零数据科技 - 社区交流](https://docs.qq.com/doc/DVnhVemtBTHdDVHps) 
+### [AllData数据中台 & 杭州奥零数据科技 - 开源版安装部署](https://alldata-document.readthedocs.io/zh/latest/install_deploy/index.html) 
 
-> 1、企业版-创始版会员价格可以查看价格文档：https://docs.qq.com/doc/DVG1udXdxdWF4VHRG
->
-> 2、企业版-新版尊贵会员价格可以查看价格文档：https://docs.qq.com/doc/DVEtIeVJ0ZlROdnJL
->
-> 3、企业版-新版高级会员价格可以查看价格文档：https://docs.qq.com/doc/DVG9meHFCdFJCQU9I
->
-> 4、企业版-新版终身会员价格可以查看价格文档：https://docs.qq.com/doc/DVExLZHNwcmlxTXZx
->
-> 5、企业版-全部会员价格汇总可以查看海报：https://docs.qq.com/doc/DVFZEQWhoaGxFSXR6
-> 
-> 6、个人版-会员价格可以查看价格文档: https://docs.qq.com/doc/DVG9Hc0haTFhjTUNs
->
-> 7、开源版-会员价格可以查看价格文档: https://docs.qq.com/doc/DVEt2eUV0Q3hyZ3lz
->
-> 8、部署版-会员价格可以查看价格文档: https://docs.qq.com/doc/DVE5ITllxcG1rV0JJ
->
 
+## AllData数据中台产品详细介绍
+<img width="1400" src="https://github.com/user-attachments/assets/f31a1df6-37c7-4e4a-aa0e-56bf05caa86a" />
 
-## 六、加入社区 ｜ AllData数据中台技术社区
-> 6.1 微信社区交流群
-![image](https://github.com/alldatacenter/alldata/assets/20246692/610da0a1-ee19-4173-b6ab-7f96aaf808f1)
->
-> 6.2 微信搜索-视频号
-![image](https://github.com/alldatacenter/alldata/assets/20246692/c809b131-4b5f-4e60-ab26-81930665fc3b)
->
-> 6.3 微信搜索-公众号
-![image](https://github.com/alldatacenter/alldata/assets/20246692/7d4312a3-1904-404d-a0ed-f36b14e7c02d)
->
-> 6.4 功能介绍（开源版只有创始版会员部分功能）
-![第一：功能权益](https://github.com/alldatacenter/alldata/assets/20246692/6acb372c-bcdf-4732-9ed4-0dd7aaa8b926)
->
-> 6.5 架构设计
-<br/>
-<img width="1423" alt="image" src="https://user-images.githubusercontent.com/20246692/235920344-fbf3c9d2-6239-4c73-aa9c-77a72773780e.png">
-![AllData数据中台](https://github.com/alldatacenter/alldata/assets/20246692/1059d046-f3d6-4486-be08-786db4fda365)
+## AllData发展历程
+<img width="1400" src="https://starchart.cc/alldatacenter/alldata.svg" />
 
-<br/>
+## AllData架构设计图
+<img width="1400" alt="image" src="https://github.com/user-attachments/assets/3a9bf963-2d9e-44a3-b803-8ea2b340df22">
 
+## AllData技术社区 
+<img width="1400" alt="image" src="https://github.com/user-attachments/assets/7e18ed98-1943-4e0c-9f6b-40b16a8f4fc9">
 
-## 七、演示 ｜ AllData数据中台正式线上环境
+## AllData数据中台产品演示与体验
+## AllData登录页
+<img width="3200" height="1572" alt="登录页" src="https://github.com/user-attachments/assets/afbbc553-faa8-414d-b2b3-b1d2a44fb066" />
 
-### 7.1 首页
-<img width="1423" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/40364db7-d7a1-457c-af51-94b3b6a71f8e">
+### AllData首页
+<img width="3200" height="1572" alt="首页" src="https://github.com/user-attachments/assets/4ccc8489-e3aa-47b9-9f6c-19929b04e0e7" />
 
-### 7.2 数据集成（开源版有，商业版更稳定，bug比较少）
 
-<img width="1423" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/862469f5-a557-4654-a348-c7d2ccc29b49">
+## 数据源平台
 
-<img width="1439" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/34fcabb5-5c93-468b-8c83-b23266a593ac">
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/b02f6aac-eaf2-44c8-b166-849cd42a714c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/a6fed95b-46fe-430e-bfbf-4b1167011b66" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/5d57696b-d789-4939-bcc6-8928a1504631" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/49069523-8685-4416-a4c3-ba4c620d2228" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/0696c297-d255-495a-ab8d-657ccc2eb6f8" />
 
-<img width="1413" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/265f3d51-5404-4525-aa3a-1706e7c44001">
 
-<img width="1419" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/defae4eb-3746-43d8-835c-16aa5bbaab54">
+## 数据库同步平台
 
-<img width="1419" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/19315163-492a-4c3b-bc4e-475e02c1a674">
-<img width="1425" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/450659ad-8baa-4dfe-a3f1-6bf7bbbfaafb">
-<img width="1439" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/e84dc781-ee36-4f82-ae59-fccbffd9fdd9">
-<img width="1400" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/65d5e8ec-f2f2-4053-bf3c-9e46131dd54b">
+<img width="3200" height="1556" alt="1" src="https://github.com/user-attachments/assets/91487505-93c0-45b1-824e-523355fe367d" />
+<img width="3200" height="1556" alt="2" src="https://github.com/user-attachments/assets/0618ba59-3793-4d64-8d98-38ef5ef5e5fa" />
+<img width="3200" height="1556" alt="3" src="https://github.com/user-attachments/assets/2d713737-634b-4a29-8f7f-58c8066f1498" />
+<img width="3200" height="1556" alt="4" src="https://github.com/user-attachments/assets/062b918e-c7f6-4783-8bfb-6f01555e336a" />
+<img width="3200" height="1556" alt="5" src="https://github.com/user-attachments/assets/67f45d2c-031d-45a5-982f-22d9bebfc5c0" />
 
 
-### 7.3 数据质量（开源版有，商业版更稳定，bug比较少）
+## 数据中枢平台
 
-<img width="1412" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/def238c4-9721-4ebf-b7f8-60f2c317d27d">
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/c485ef9c-4230-4b99-b2a5-116d98206328" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/23a0c3b8-4b89-4ca9-bb1b-8dc54e5bce2e" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/8fee190e-b631-48ed-bab1-1f77efddd688" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/82fe4333-c4bb-4b10-8c91-7db911b1301f" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/1610fd39-2882-4f95-ba47-a1b9a1a31c0d" />
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/79a50d83-cacb-49df-9b54-5deb5cd6b2bb)
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/47f736b1-2281-448f-b703-7fed005f1326)
+## 数据汇聚平台-数据集成管理
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/5e55ba7c-df80-4c0c-ab54-e83d46047cd3)
+<img width="3196" height="1572" alt="1" src="https://github.com/user-attachments/assets/e930e2d5-1d4b-4943-b763-ba6eab32876c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/3de2d452-8786-4123-9166-f1a5e4c54678" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/7b98ab0c-82eb-4ef8-b175-869a055791b7" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/7b1bf260-4496-41fc-a7d4-5b84b34f1bae" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/84da2101-a3a5-4a67-aa7f-4f8640cbfb75" />
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/5280690b-f6a1-4aba-98b9-788270d65fba)
 
-### 7.4 数据标准（开源版有，商业版更稳定，bug比较少）
+## 数据汇聚平台-数据集成平台
 
-<img width="1405" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/73c735f9-ebc1-4824-8e03-713494bc9d00">
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/a7cd3938-435e-4f79-828d-6480d27a943c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/0e464e3f-0348-4fe4-8f71-00921c566ff2" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/bdd6a035-30d4-4a75-a5da-1686084d5df8" />
+<img width="3200" height="1568" alt="4" src="https://github.com/user-attachments/assets/d935d0e3-3899-44ce-b991-f4a4fbe39811" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/a9de8e1d-504b-4c53-ab48-2d75f43e4ed3" />
 
-<img width="1410" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/12f4c9c4-f7d9-484d-886f-efce968e6f6e">
 
-<img width="1424" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/81aa4cc1-8ef9-4dbf-a539-5d87ffb7b9f2">
+## 数据汇聚平台-数据同步平台
 
-<img width="1409" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/b091f7eb-6ba1-4c04-a065-02cc1b984862">
+<img width="3198" height="1568" alt="1" src="https://github.com/user-attachments/assets/05d1ca4d-751f-412f-b0fd-64f7c798e602" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/ee6c9067-048d-4c4d-8713-b9e4935afeee" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/bd209a69-ee45-4c9e-bf22-6c8a633939ff" />
+<img width="3200" height="1568" alt="4" src="https://github.com/user-attachments/assets/5f0bc6ca-de66-40d7-b0a5-0670c98657cb" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/2e6ebf1c-93a3-4f7b-bb32-7edd235544c9" />
 
 
-### 7.5 元数据管理（开源版有，商业版更稳定，bug比较少）
-<img width="1411" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/6e2800e3-ff47-4bfd-8401-ed3983b588ab">
+## 数据存储平台-数据平台
 
-<img width="1424" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/e5497f9d-6a75-424b-98e1-4a73573f0c0b">
+<img width="3198" height="1572" alt="1" src="https://github.com/user-attachments/assets/c9f7f5e2-cd46-4d9c-8ceb-92d09a253f09" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/af2f5b94-a7d6-4aa5-8e3b-4a0235fcb5cc" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/c37b342c-ed4c-49dc-a976-9d6b308a1f9f" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/bb5aa33e-6310-476a-9feb-8401329af8e4" />
+<img width="3200" height="1570" alt="5" src="https://github.com/user-attachments/assets/616eabf9-b3bc-438e-9168-b8b9c5df94b3" />
 
-<img width="1405" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/c4b10f4d-c943-40a3-9091-5ee747318036">
 
-<img width="1396" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/e12b3be1-761c-4ba0-b8d9-d688a2d56984">
+## 数据存储平台-云原生数据平台
 
-<img width="1394" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/3b481394-72f0-4713-8860-220a2a6496c5">
+<img width="3182" height="1564" alt="1" src="https://github.com/user-attachments/assets/d1f15f9c-d446-4112-b7b0-cba828ea9fa9" />
+<img width="3198" height="1568" alt="2" src="https://github.com/user-attachments/assets/5f10b215-da4a-467d-9da2-b71098692b57" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/9629d5be-c00f-4354-b3c3-0c6150c73920" />
+<img width="3196" height="1568" alt="4" src="https://github.com/user-attachments/assets/589d5136-35c3-4607-be5f-8a84d2b036b1" />
+<img width="3200" height="1564" alt="5" src="https://github.com/user-attachments/assets/8a42f83e-c1a7-43ec-ab3b-94b1b3a376f0" />
 
-<img width="1415" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/98475d04-b4dd-4e3a-af7f-5f01166f4650">
 
-<img width="1415" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/8a3f6445-cf3e-4b38-a423-ab94d59c3ba4">
+## 数据分析平台-数仓建模平台
 
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/c53e4e6b-ed63-4b15-9568-39245f4ee06a" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/a70a7859-7dba-4c35-a7af-5e2491e64279" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/2a7d97bf-e916-4054-a4c5-8eacfdae6cbe" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/a3670cf8-09c1-469b-bb83-39fa9e5f3d49" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/825f3015-4481-4882-8d4e-70c98bd68224" />
 
-### 7.6 数据资产（开源版有，商业版更稳定，bug比较少）
 
-<img width="1434" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/87351bf4-2249-421f-bde0-afa2bd115324">
+## 数据分析平台-数据湖平台
 
-<img width="1411" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/4096b37b-0534-48b1-bcb4-c592966df6f5">
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/10bc7245-921f-4308-8a7d-e20c3ace4fb1" />
+<img width="3198" height="1568" alt="2" src="https://github.com/user-attachments/assets/0af89be3-82f5-41bf-9aff-02a910726cfe" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/94a70729-54be-432b-b140-27911999bf8e" />
+<img width="3200" height="1566" alt="4" src="https://github.com/user-attachments/assets/7b215f24-1d33-4b73-918a-b2ff9f2a77d0" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/5d61450d-2910-46c6-a159-f942dbc96c78" />
 
-### 7.7 数据服务（开源版有，商业版更稳定，bug比较少）
 
-<img width="1400" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/53a16fc5-13c0-4c68-a6ae-549d81c6b3c7">
+## 数据分析平台-湖仓查询平台
 
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/e7daccab-120e-4c09-8f97-a33fec18758c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/94232e9d-a106-42a9-8eff-8531d665bb17" />
+<img width="3198" height="1572" alt="3" src="https://github.com/user-attachments/assets/7a4abe84-737f-4b6a-a77a-3cffa7bd9ee8" />
+<img width="3190" height="1566" alt="4" src="https://github.com/user-attachments/assets/9bf98fe3-4085-4586-9cfc-134d3f387b55" />
+<img width="3196" height="1568" alt="5" src="https://github.com/user-attachments/assets/03f53af3-a6e2-412d-bf95-f6f91579948e" />
 
-<img width="1420" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/7d1829e3-4443-4e4a-badb-4c803fd78765">
 
-<img width="1393" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/b903d771-d6b3-469e-9a0e-2abf14c820c8">
+## 数据分析平台-湖仓平台中心
 
-<img width="1409" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/ac53ce10-e28b-423e-92e8-dd4ef3e94276">
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/4f25db53-29ba-4228-b833-b59ca8046d61" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/b541fdf1-990a-48ec-819c-2ffcaf26735e" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/7266eb37-bd80-4c79-bd95-8b1376459b8e" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/67223010-bc6b-4e0b-adcc-cdcf20f01dcd" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/7837e4eb-ce8f-4846-9dbd-939c7f929587" />
 
-<img width="1402" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/9058eead-2a33-4c87-b4e7-85b619ce5e78">
 
+## 数据开发平台-实时开发平台
 
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/a8fb6929-6dee-47d5-ab76-4c8a6b72db26" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/17afbcc3-f450-477e-8164-46231a4b4972" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/e40063a4-a5d7-4313-9bd1-7e387b75315a" />
+<img width="3200" height="1570" alt="4" src="https://github.com/user-attachments/assets/61f06616-a97f-42b6-b3ad-6825522a6f9c" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/f606953f-c797-4b1e-aaf9-ceea7bdc473b" />
 
-### 7.8 数据比对（开源版有，商业版更稳定，bug比较少）
 
-<img width="1416" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/a7214896-7a15-443a-bd75-f024ae8e8ec3">
+## 数据开发平台-实时开发IDE
 
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/305cd0a5-6283-4636-8687-ac58ceff2e9e" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/45a1079a-333a-454e-b77f-c647bdc43fe2" />
+<img width="3200" height="1570" alt="3" src="https://github.com/user-attachments/assets/fe8f3074-a794-43b2-923f-769bd6561f94" />
+<img width="3196" height="1566" alt="4" src="https://github.com/user-attachments/assets/7567fbd0-ecd8-4395-8c91-1b36cef33f74" />
 
-<img width="1428" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/424fc66b-8186-470f-ba3b-76f02035a679">
 
-<img width="1422" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/31a9368e-fbed-43f4-911d-7551a3592049">
+## 数据开发平台-离线开发平台
 
-<img width="1407" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/b6ad5827-2896-4ef0-be66-9116f9612d01">
+<img width="4480" height="2282" alt="1" src="https://github.com/user-attachments/assets/08b55f4a-600c-4c31-a0c0-89d960171603" />
+<img width="3176" height="1552" alt="2" src="https://github.com/user-attachments/assets/24fa279d-1eb6-400b-bc34-a08cd31c2444" />
+<img width="3200" height="1570" alt="3" src="https://github.com/user-attachments/assets/b7acd4de-fb48-497b-a00e-722182d61d4d" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/f159270d-862c-4bfa-8126-7abfc333febe" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/ad5cc2d7-aa28-4687-9361-2289260e58a8" />
 
-<img width="1410" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/2409f74f-bed4-465b-adf3-022979132247">
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/d1d5307c-3963-49d9-b125-d999bb32a05a)
+## 数据治理平台-数据门户管理
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/c5c71ad3-e205-4920-8b03-6ac3d58a0540)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/64889c4d-3912-4afa-8c6d-64fec7a44f0d" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/cc887f94-23f5-468f-9037-f5ad764fc945" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/3328d807-da1a-4f3f-9765-2bcee9c9acb2" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/28168d13-5251-4940-91e7-6e8a2daeaacf" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/fe9da5b2-a14e-457b-bae7-b4b747786134" />
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/1ed9226e-ecab-4e4e-b00f-4ca73228c1ec)
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/b278918e-35a6-4d0d-8ee9-153620af0ef3)
+## 数据治理平台-数据权限平台
 
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/4ac85662-fae7-48b6-815e-7ee7708f5dfc" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/c5b20fda-4e1a-4010-b3ca-15cd806cd779" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/422940ec-b90f-44d5-a9bf-3a962d9b3530" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/98d227f3-ee63-4b9f-9440-234df8f93eb2" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/f2c548bf-c178-4999-9d3e-a9f641e8b18a" />
 
 
-### 7.9 BI报表（开源版有，商业版更稳定，bug比较少）
+## 数据治理平台-数据质量管理
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/6aa5e2d0-6343-4943-9963-5c8e08557e4f)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/9f40798d-5d6a-4fef-90bc-cedb703d40f2" />
+<img width="3186" height="1528" alt="2" src="https://github.com/user-attachments/assets/07145018-d6ba-4670-b115-42376a80fcf1" />
+<img width="3200" height="1566" alt="3" src="https://github.com/user-attachments/assets/4d80f1ed-fef8-4c4d-a4a7-71a691ed45f6" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/f96e45fd-c48f-4e9b-b87d-9497d3704b08" />
+<img width="3190" height="1558" alt="5" src="https://github.com/user-attachments/assets/d5a29a2f-66b7-4494-b885-ed17ae71f9fb" />
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/e5299ec0-3428-4097-969d-caa712e672d3)
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/0c9f3e05-ca04-47b1-a84e-e4e6643c3e6d)
+## 数据治理平台-数据比对管理
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/db822c06-3553-4e6f-aeaf-61a50e81f17a)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/9cc1a0b6-5b45-45a5-bbd2-23e689711297" />
+<img width="3190" height="1572" alt="2" src="https://github.com/user-attachments/assets/de7c68f2-11f2-4f6b-a26a-27b4cb0ddd53" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/8928be0b-a411-49bc-826f-be6cd7b54d4f" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/cc1d0bd6-887c-4202-b64d-58cffd26a770" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/3df20b53-21a4-4d96-8a53-3bf8017f3245" />
 
-<img width="1427" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/9476f258-e8dd-438e-acab-4abc68410b9c">
 
+## 数据治理平台-数据标准管理
 
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/5d9a75b1-0a03-432a-b829-f646cca7f3a1" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/a240048f-2794-4c73-84ba-75681ef8e452" />
+<img width="3192" height="1566" alt="3" src="https://github.com/user-attachments/assets/3e7e95f1-c109-4ecf-903f-8a26348e8c1a" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/cfe37819-87e8-424c-b2db-0148d5a00b79" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/10a89959-ed4a-42fd-bffa-38d8215f061a" />
 
-### 7.10 流程编排（开源版有，商业版更稳定，bug比较少）
 
-<img width="1382" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/90f23e9f-2154-474c-bc93-4b9eb1fee263">
+## 数据治理平台-数据模型管理
 
-<img width="1408" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/5d77957f-a98a-4efe-aea2-7a2f0b6b4deb">
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/ef48f03b-1948-4a3a-9a94-ce22d446ab5b" />
+<img width="3152" height="1570" alt="2" src="https://github.com/user-attachments/assets/182b9072-3809-4385-a9d7-a918b5c88bb7" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/d180694c-4a26-423b-9de4-4a78b1f6f1bb" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/0194e100-6c07-4ef7-b3b8-c62b6c91e490" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/79e75c85-e04d-4291-86b5-fb0b376aba5d" />
 
-<img width="1429" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/87c388ad-b578-4c37-8222-e6bec8dfb249">
 
-### 7.11 系统监控（开源版有，商业版更稳定，bug比较少）
-![image](https://github.com/alldatacenter/alldata/assets/20246692/725711c1-d603-4fe5-93b0-debf50b6ce74)
+## 数据治理平台-元数据管理平台
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/12b47e3e-2227-42e9-96fb-a88d13b54594)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/8b7c4987-3b01-465e-b15d-59a2c4fa2cd7" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/5c4cc579-5880-4d59-a64a-e74778eb1c6b" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/e5ea66eb-0696-41fd-98a1-bb2dbec75a13" />
+<img width="3194" height="1572" alt="4" src="https://github.com/user-attachments/assets/2a374d7e-80b5-4db1-827e-81dd4c44de98" />
+<img width="3200" height="1570" alt="5" src="https://github.com/user-attachments/assets/137ee0f0-8f21-4e07-9de7-bc7f48da8134" />
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/6b58bffc-0133-4973-99ae-37642347ba50)
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/0a1b1c3f-cf12-4213-8b72-deeb5c8205f8)
+## 数据治理平台-数据质量平台
 
-### 7.12 运维管理（开源版有，商业版更稳定，bug比较少）
+<img width="3200" height="1570" alt="1" src="https://github.com/user-attachments/assets/b6ce2aa6-9413-44aa-bd92-64a7cd51a5ff" />
+<img width="3196" height="1562" alt="2" src="https://github.com/user-attachments/assets/b44c0699-474b-48ff-94bd-629a1b2c3dcb" />
+<img width="3196" height="1564" alt="3" src="https://github.com/user-attachments/assets/6d1ef1a5-3416-4163-af81-7a48ad918ea0" />
+<img width="3198" height="1566" alt="4" src="https://github.com/user-attachments/assets/b5a33b3a-94ee-4731-b92b-486086bf7ce7" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/860c89e9-a3b2-484a-b085-82a03860bd10" />
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/4e990fda-dbc5-41b4-a038-0b5f6c0e4539)
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/7a94f0ec-5608-4841-9ebc-3ba5c8214544)
+## 数据共享平台-数据服务平台
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/575a7f99-dc82-48a8-bf4f-dbc2a115a0b2)
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/d73682d0-3b12-4b95-a53e-584b20766d74" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/c39f7f03-c0cb-4ef7-9b38-db22fa60a638" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/c5781b82-375b-407f-808d-f4db4503ff7f" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/94e8d2cb-ced1-4dee-9126-180a119f7fc4" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/4c77c885-0468-4273-9237-63b0d95ca87e" />
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/0f01f27d-bd9e-4449-81e3-3f5d306a643e)
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/cc84bd6b-c609-4d3b-82f1-33b524ab33b1)
+## 数据共享平台-API共享平台
 
-### 7.13 数据平台（开源版没有，商业版提供源码）
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/129a6889-bb32-44da-8598-8e3722fde650" />
+<img width="3196" height="1568" alt="2" src="https://github.com/user-attachments/assets/acefb858-9545-4883-a57a-8663c3c1a9e8" />
+<img width="3200" height="1568" alt="3" src="https://github.com/user-attachments/assets/1d32b5e0-6dcb-42c4-9277-a74de6cf336a" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/7112ecdc-a6ce-4196-bc80-d2aea3bc1e74" />
+<img width="3200" height="1566" alt="5" src="https://github.com/user-attachments/assets/9cda0e28-934e-45fa-a840-e762bed4f226" />
 
-<img width="1410" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/dbc8c273-1800-4395-999d-eb241c09301a">
 
-<img width="1416" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/46a3e3d1-940a-4f23-be3c-f246bff44c3b">
+## 数据可视化平台-BI可视化平台
 
-<img width="1401" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/0de860ff-a277-4b33-b6c5-9f28c7397cdb">
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/955f56a2-65cf-47b9-861b-55fdf99f283c" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/c4bf3f90-01a6-4233-96f1-c0a8d13e526d" />
+<img width="3200" height="1570" alt="3" src="https://github.com/user-attachments/assets/82cb56c3-3425-4611-bf26-65e1d4220fdd" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/03c43a08-7bbe-44ea-8a12-76e0d6dce728" />
+<img width="3200" height="1570" alt="5" src="https://github.com/user-attachments/assets/197be2f8-ac71-4243-9333-4a66002aef00" />
 
-<img width="1407" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/4e4230d1-67bb-4416-9b13-1eb8a3e4db93">
 
+## 指标体系平台
 
-<img width="1410" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/3d8acd20-17a0-4726-94de-c46d4e008c2d">
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/f9e527ee-eb4c-4720-b998-4534859a445f" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/eb15209f-6645-4a16-a35c-208a4b75b3df" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/f79c7405-28d5-433b-8899-5479301f2b2e" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/35db657e-8f5d-40be-a0ac-e42d2c9734f7" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/e7675018-c2ad-4f60-89b3-ad3c1350e379" />
 
-<img width="1397" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/304adb57-61dd-4f3d-816f-f743ac628832">
 
-<img width="1403" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/f8ac1e10-2f54-4bf2-a6a0-993949e83e08">
+## 机器学习算法平台
 
-<img width="1416" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/058c0dde-35c5-4bab-97e9-36bf03200bd2">
+<img width="3200" height="1572" alt="1" src="https://github.com/user-attachments/assets/5d08331b-3957-4cea-a5c0-720c85fe93bf" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/f53473ad-4ee4-49ce-b493-2719a5020828" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/b9b3ccdf-0696-4e8e-858e-534a4ae1a8f6" />
+<img width="3200" height="1572" alt="4" src="https://github.com/user-attachments/assets/7cb04523-cb77-4cd8-aa54-a5266da81364" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/563fd7ff-a36a-4973-9f0e-b3702afbe222" />
 
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/f1ceca6b-98f8-4064-9f6f-65f0b4e7f1c8)
+## 大模型应用开发平台
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/07051569-4183-4cf6-9128-623e712c15f0)
+<img width="3192" height="1568" alt="1" src="https://github.com/user-attachments/assets/777cf47a-86e9-4acf-a319-a7281b501ae9" />
+<img width="3200" height="1572" alt="2" src="https://github.com/user-attachments/assets/bc0a647d-5ff1-4db4-bcea-dc6f0585407d" />
+<img width="3200" height="1572" alt="3" src="https://github.com/user-attachments/assets/1eace896-9fb9-47a0-8944-e9c3767276e6" />
+<img width="3198" height="1572" alt="4" src="https://github.com/user-attachments/assets/1f926cbe-ea07-4ee2-bbb2-e0b7db56c9b2" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/3d6e8c1c-2ea9-4ebd-a822-3cd52ae30034" />
 
-![image](https://github.com/alldatacenter/alldata/assets/20246692/c07399b9-f0a8-4b2d-ac9a-1b39db5784e5)
 
-### 7.14 数据平台(K8S)（开源版没有，商业版提供源码）
+## 后台管理
 
-<img width="1424" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/b77cfc70-796f-426b-b0e2-e9b5471c59d9">
+<img width="3200" height="1570" alt="1" src="https://github.com/user-attachments/assets/338a4ebf-cbdf-4fb0-a8f1-98e2bcda9d89" />
+<img width="3200" height="1570" alt="2" src="https://github.com/user-attachments/assets/a643092c-c0f9-4c0c-a1f7-e0ea67ddeab4" />
+<img width="3192" height="1560" alt="3" src="https://github.com/user-attachments/assets/dc185a13-6948-4d0d-ab2c-9d3163ae9c24" />
+<img width="3200" height="1564" alt="4" src="https://github.com/user-attachments/assets/710a2c7e-3673-476f-8eea-db0c46d311f2" />
+<img width="3200" height="1572" alt="5" src="https://github.com/user-attachments/assets/4e83cfc2-4baa-47d5-8262-33dca733004b" />
 
-<img width="1410" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/ae40f1fd-13e4-4844-93c4-1dabcfc53ca5">
 
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/41b1fb5f-de34-4488-812f-8b217baaf54b">
 
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/706345d8-a7d7-459f-b125-912bdc4cec03">
-
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/ab048563-22a0-43d8-91d1-f6cf8f45781c">
-
-<img width="1215" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/91065efb-c6c2-4267-8886-59761d2dc555">
-
-
-
-### 7.15 实时开发（开源版没有，商业版提供源码）
-<img width="1431" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/e397f42a-850d-49ea-bfa0-c952a9857c7f">
-
-
-<img width="1389" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/eabaf802-9df7-48d3-9fa8-e886b000c1a7">
-
-<img width="1439" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/d9e1f28b-c01b-4223-bfcb-f78e0b508945">
-
-<img width="1436" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/bde8edef-d227-4270-9144-bd48cb6dbe72">
-
-<img width="1439" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/f9d78174-c222-4d8b-9125-7cb773ba3137">
-
-<img width="1438" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/35e6d823-87b1-46c8-bab9-710da80b25fb">
-
-
-
-### 7.16 实时开发IDE（开源版没有，商业版提供源码）
-<img width="1409" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/c6fac72f-0162-49f1-9897-abfcb24dc313">
-
-<img width="1438" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/6178bb3b-3523-400a-afc3-3eeb1a7b4eb8">
-
-<img width="1420" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/952fc1ca-9108-421b-831a-b9e171642b44">
-
-<img width="1404" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/084e502e-025a-4347-b69f-a1b83faac96e">
-
-<img width="1421" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/cfbe6cb8-b4a2-41f4-9fcf-96684d0c84a8">
-
-<img width="1430" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/f164c02b-d299-4752-bc46-d2154c007eaa">
-
-<img width="1437" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/0948259b-146a-4c20-b3e7-943f5930f10c">
-<img width="1410" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/f268f2ea-6736-4d8a-ab46-6b7678906424">
-
-
-### 7.17 离线平台（开源版没有，商业版提供源码）
-<img width="1436" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/b26fd04d-fc0f-40b9-8446-c8c1fc3e70ce">
-
-<img width="1436" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/af3f84f9-06ef-420c-a20e-36880b3ba2fb">
-
-<img width="1435" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/d740db51-a4cf-4f65-8e33-8f835c1aa29b">
-
-<img width="1411" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/80efda7c-bb2a-4b87-9739-8ebe9bf5cb5e">
-
-<img width="1417" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/c7f1f723-ffe9-4676-80a1-ab32b6d9ddcf">
-
-<img width="1401" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/67ba5e7b-638d-4e6c-a85a-2125fa3a256e">
-
-<img width="1435" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/9a5bfe99-98a5-4f39-979a-5fd6236f2279">
-
-<img width="1424" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/3d60df79-0cf2-44a6-9648-75b9e66e9532">
-
-<img width="1404" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/2fe4dd9e-a9a3-48d4-86ce-d3293248a6c8">
-
-
-<img width="1421" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/f4cb51e2-6c5d-40ec-a6ed-619d2f2efbb3">
-<img width="1408" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/e6706543-63c3-4392-a174-8cf3d13d2bc2">
-<img width="1424" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/043c99f5-93b7-41ee-8350-c567bea69aff">
-
-<img width="1398" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/cdd7f495-5eb8-4dd1-b332-4f443a4a48a5">
-<img width="1439" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/c2692cba-eaea-422f-8264-c3226897d705">
-<img width="1412" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/de906b6c-3498-4174-9fa7-82bf79d667d2">
-
-### 7.18 新版数据质量平台(DataVines)（开源版没有，商业版提供源码）
-
-<img width="1419" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/dccc4c1d-b277-49f5-a347-22bc38599f53">
-
-<img width="1439" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/3f187993-45ef-43ba-b04a-febb95dd4b97">
-
-<img width="1431" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/25329eb7-bc28-48e2-843b-a129aa30e646">
-
-<img width="1432" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/75560277-2856-43f2-bce8-06ada54832e4">
-
-<img width="1439" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/a7a5827e-dedd-4504-ab52-307be643ef3e">
-
-<img width="1413" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/6427fecc-e451-4cf2-9700-0142c82c6d23">
-
-<img width="1416" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/65b59adb-9876-4e91-80aa-81f6d58305ae">
-
-<img width="1412" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/5c4c9ff2-dd8c-4dc7-bf32-0aa2153f4ad2">
-
-<img width="1421" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/4efa7242-5927-404e-9a18-e7274adccb3a">
-
-<img width="800" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/433b22ba-b562-45d1-877a-2c52d8c1cc11">
-
-<img width="1439" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/b25dba4d-28c9-4d16-bca1-e1803c5ae87a">
-
-### 7.19 新版BI平台(Datart)（开源版没有，商业版提供源码）
-
-<img width="1413" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/0732f03a-63b3-404d-a1d6-adfd9eff34b7">
-
-
-<img width="1435" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/cf8d53d3-7292-45cb-9bd3-847b24150880">
-
-<img width="1413" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/5a2cb21c-3b42-4626-80f3-fceb76e06a22">
-<img width="1409" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/5175a50f-c6cb-4fc1-a40c-ba8a5745f26d">
-
-<img width="1265" alt="image" src="https://github.com/alldatacenter/alldata/assets/20246692/92e4ba6b-ee6e-4d54-93b9-28d3af509564">
-
-
-## 八、AllData开源RoadMap
-
-### 8.1、全站式AllData产品路线图
-<br/>
-<img width="1215" alt="image" src="https://user-images.githubusercontent.com/20246692/179927878-ff9c487e-0d30-49d5-bc88-6482646d90a8.png">
-<br/>
- 
